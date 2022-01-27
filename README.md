@@ -1,3 +1,20 @@
+# Simple URL Uptime Monitoring Application in SpringBoot
+Uses Concepts of Scheduled Threads to monitor uptime of an application.  
+The API also provides with simple avg uptime for an API from the time the monitoring Job was created.  
+
+
+# Problem Statement
+```    
+A user of the API should be able to register new checks for a website. 
+A check should have a name, website url, and frequency.
+Frequency can be either in minutes or hours.
+We choose a minute interval if we want checks to be performed at intervals less than an hour.
+Any check more than one hour needs to be configured in hours.
+For example, frequency can have a value between 1minute to 59 minutes.
+Beyond that it will be in hours like 1 hour, 2 hours. Hours can be maximum till 24 hours.
+The above also implies we can’t define frequency as 1 hour 25 mins. For this, we either can have 1 hour or 2 hour.
+```
+
 # Pre-requisites
 1. Java 8+
 2. Maven

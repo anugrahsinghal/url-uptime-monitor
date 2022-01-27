@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class XebiaXupApplication {
+public class XupApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(XebiaXupApplication.class, args);
+		SpringApplication.run(XupApplication.class, args);
 	}
 
 }
