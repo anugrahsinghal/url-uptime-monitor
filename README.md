@@ -18,7 +18,7 @@ The above also implies we can’t define frequency as 1 hour 25 mins. For this, 
 # Pre-requisites
 1. Java 8+
 2. Maven
-3. Docker
+3. Docker (optional)
 
 ---
 
